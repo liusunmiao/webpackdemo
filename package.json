@@ -1,0 +1,67 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "webpack serve --open --progress --config build/webpack.dev.conf.js",
+    "build": "node build/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/runtime": "^7.14.6",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "chalk": "^2.4.2",
+    "compression-webpack-plugin": "^8.0.0",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.28.0",
+    "eslint-formatter-friendly": "^7.0.0",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^9.1.0",
+    "node-sass": "^6.0.0",
+    "postcss-loader": "^6.1.0",
+    "rimraf": "^2.7.1",
+    "sass-loader": "^12.1.0",
+    "shelljs": "^0.8.4",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^2.6.12",
+    "element-ui": "^2.15.2",
+    "ora": "^5.4.1",
+    "portfinder": "^1.0.28",
+    "semver": "^6.3.0",
+    "vue": "^2.6.14",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-router": "^3.5.1"
+  }
+}
