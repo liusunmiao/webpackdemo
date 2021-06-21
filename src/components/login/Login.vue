@@ -6,7 +6,13 @@
 
 <script>
 export default {
-  name: "Login"
+  name: "Login",
+  data() {
+    return {}
+  },
+  created() {
+  },
+  methods: {}
 }
 </script>
 
